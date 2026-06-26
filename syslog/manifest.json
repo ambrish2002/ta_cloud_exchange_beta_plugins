@@ -1,9 +1,9 @@
 {
     "name": "Syslog",
     "id": "syslog",
-    "version": "4.1.1-beta",
+    "version": "4.1.2",
     "module": "CLS",
-    "mapping": "Syslog Default Mappings Beta",
+    "mapping": "Syslog Default Mappings",
     "format_options": [
         {
             "label": "CEF",
