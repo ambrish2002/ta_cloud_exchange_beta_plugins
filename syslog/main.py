@@ -420,9 +420,17 @@ class SyslogPlugin(PluginBase):
             return data
 
         mapped_dict = {}
+        data_keys = data.keys()
         for key in mappings:
-            if key in data:
+            if key in data_keys:
                 mapped_dict[key] = data[key]
+            else:
+                (
+                    value,
+                    field_exist
+                ) = self.get_nested_field_value(data, key)
+                if field_exist:
+                    mapped_dict[key] = value
 
         return mapped_dict
 

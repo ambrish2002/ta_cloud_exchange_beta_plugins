@@ -1,7 +1,7 @@
 {
     "name": "Syslog",
     "id": "syslog",
-    "version": "4.1.1-beta",
+    "version": "4.1.2-beta",
     "module": "CLS",
     "mapping": "Syslog Default Mappings Beta",
     "format_options": [

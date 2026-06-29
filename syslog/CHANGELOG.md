@@ -1,4 +1,10 @@
-# 4.1.1-beta
+# 4.1.2-beta
+## Changed
+- Updated WebTx mappings to support Transaction Events universal field updates.
+## Fixed
+- Fixed ingestion for selected field in JSON format.
+
+# 4.1.1
 ## Added
 - Added support for skipping the priority from the JSON-formatted data.
 
